@@ -178,11 +178,7 @@ class _FormDetailState extends State<FormDetail> {
                             if (isValid) {
                               formKey.currentState!.save();
                               DocumentReference _documentReference=FirebaseFirestore.instance.collection('Jobs').doc(_JobId);
-                              // print("docccccc");
-                              // print(_documentReference.collection('count') );
-                              // print("Yesss");
-                              // print(_documentReference.collection('count').get());
-                              // QuerySnapshot _data =await _documentReference.collection('count').get();
+                           
                               // print(_data.docs);
                               CollectionReference _reference=_documentReference.collection('Applied_Users');
 
@@ -202,34 +198,12 @@ class _FormDetailState extends State<FormDetail> {
                                   'Description':data['Description']
                                 }
                                 );
-                                // _refer.doc("hi").add({
-                                //   'Event': data!['title'],
-                                //   'Date': data['Date']}
-                                //  });
-                                // _refer.id("hello").add({
-                                //       'Event': data!['title'],
-                                //       'Date': data['Date']}
-                                // });
-                                // _refer.add({
-                                //   'Event': data!['title'],
-                                //    'Date': data['Date']}
-                                // );
+                             
                                 Navigator.of(context).pop();
                               }
-                              // final snackBar=SnackBar(
-                              //   duration: Duration(days: 365),
-                              //   content: Text("Registered !!"),
-                              //   action: SnackBarAction(
-                              //     label: 'Dismiss',
-                              //     onPressed: (){
-                              //       Navigator.of(context).pop();
-                              //     },
-                              //   ),
-                              // );
+                       
                               Navigator.of(context).pop();
-                              // ScaffoldMessenger.of(context).showSnackBar(snackBar);
-
-
+                      
                             }
                           }
 
