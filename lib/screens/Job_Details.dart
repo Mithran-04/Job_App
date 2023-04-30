@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-// import 'package:sem_5_project/screens/Events_Details.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:job_app/screens/user_form_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -18,8 +17,7 @@ class JobDetails extends StatelessWidget {
         ?.settings
         .arguments as String;
 
-    // print("iddddddddddddddddddddd");
-    // print(_eventId);
+
     return Scaffold(
       extendBodyBehindAppBar:true,
       body: NestedScrollView(
@@ -36,8 +34,6 @@ class JobDetails extends StatelessWidget {
             elevation: 5,
             centerTitle: true,
             backgroundColor: Colors.black,
-
-            // pinned: true,
           ),
         ]
         ,
@@ -117,8 +113,6 @@ class JobDetails extends StatelessWidget {
 
                                   ],
                                 ),
-
-
 
                                 onPressed: (){
 
