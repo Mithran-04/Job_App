@@ -227,23 +227,6 @@ class _ReorderableExampleState extends State<ReorderableExample> {
                           'Deadline': data['Deadline'],
                           'Description': data['Description'],
                         });
-
-                        // final QuerySnapshot<Map<String,dynamic>> AppUsers=await _refer.collection("Applied_Users").get();
-                        // final AppUsersVar=AppUsers.docs.map((Users) => )
-                        // _refer.collection('Applied_Users').add({
-                        //
-                        // });
-
-
-                        // DocumentReference _documentReference=_refer.doc(id);
-                        // CollectionReference _reference=_documentReference.collection('Applied_Users');
-                        //
-                        // _reference.add({
-                        // 'Email id': FirebaseAuth.instance.currentUser!.email,
-                        // 'Name':Name,'Age': Age,'Qualification': Qualification,'Experience':Exp},
-                        // );
-
-
                         FirebaseFirestore.instance.collection("Jobs").doc(id).delete();
                       };
                     },
