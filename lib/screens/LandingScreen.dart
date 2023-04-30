@@ -196,9 +196,8 @@ class _LandingScreenState extends State<LandingScreen> {
                                 );
                             },
 
-    );
-                         
-                      }
+              );
+                     }
                       return const Center(
                         child: CircularProgressIndicator(),
                       );
