@@ -146,17 +146,6 @@ class _SignInScreenState extends State<SignInScreen> {
                   });
 
                 }
-
-
-                //     String? _userName=FirebaseAuth.instance.currentUser!.displayName;
-                //     print("11111111111111111111111111111111111111111111111111111111111111111111111111");
-                //     print(_userName);
-                //     Navigator.of(context)
-                //         .pushNamed(LandingScreen.routeName);
-                //   }
-                // ).onError((error, stackTrace){
-                //   print("Error ${error.toString()}");
-                // });
               }
               ),
               signUpOption(),
