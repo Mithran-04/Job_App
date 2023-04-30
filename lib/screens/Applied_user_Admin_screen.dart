@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-// import 'package:sem_5_2app/utils/constants.dart';
-// import 'package:sem_5_2app/utils/custom_functions.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class AppliedUserAdminScreen extends StatefulWidget {
