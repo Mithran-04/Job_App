@@ -27,16 +27,7 @@ class _AdminFormScreenState extends State<AdminFormScreen> {
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(80.0),
         child: AppBar(
-          // leading: Padding(
-          //   padding: EdgeInsets.fromLTRB(14, 30, 10, 20),
-          //   // child: BackButton(
-          //   //     color: Colors.white,
-          //   //   onPressed: (){
-          //   //       Navigator.of(context).pop();
-          //   //   },
-          //   // ),
-          // ),
-          // floating: true,
+        
           iconTheme: IconThemeData(color: Colors.white),
           title: Padding(
               padding: EdgeInsets.fromLTRB(40, 60, 20, 24),
@@ -46,9 +37,6 @@ class _AdminFormScreenState extends State<AdminFormScreen> {
           elevation: 1,
           // centerTitle: true,
           backgroundColor: Colors.black,
-
-
-          // pinned: true,
         ),
       ),
       body: Container(
