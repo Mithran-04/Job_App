@@ -5,9 +5,13 @@ The Job Portal App is a cross-platform application built using Dart/Flutter and 
 ## Features:
 
 User Registration and Login: The Job Portal app provides a simple and secure user registration and login system using Firebase Authentication. Users can create an account, sign up, and login to access their dashboard.
+
 Job List: Users can view available jobs, with each job color-coded based on its application deadline.
+
 Job Details: The app displays job details such as job description, required skills, job responsibilities, and other relevant information.
+
 Apply for Jobs: Users can apply for jobs that match their skills and interests
+
 Applied Jobs: Users can view the list of jobs for which they have applied.
 
 ## Admin Features:
@@ -19,5 +23,5 @@ Archive Jobs: Admins can archive job listings that are no longer. Archiving a jo
  
  
  ## Admin Login credentials:
- Email id: Admin123@gmail.com
+ Email id: Admin123@gmail.com 
  Password: 12345678
