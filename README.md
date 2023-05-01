@@ -21,6 +21,8 @@ View Applicants: Admins can view a list of all job applications for each job lis
 
 Archive Jobs: Admins can archive job listings that are no longer. Archiving a job listing removes it from the list of available jobs.
  
+## Aplication Link:
+https://jobapp-1a125.web.app/#/
  
  ## Admin Login credentials:
  Email id: Admin123@gmail.com 
