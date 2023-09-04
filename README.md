@@ -1,5 +1,3 @@
-# Nbyula Assignment-2
-
 # Job Portal App
 
 The Job Portal App is a cross-platform application built using Dart/Flutter and Firebase Cloud Database that enables users to apply for available jobs. Users can create an account, sign up and login, explore job listings, view job descriptions, and apply for positions that match their skills and interests.
