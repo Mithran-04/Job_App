@@ -23,7 +23,3 @@ Archive Jobs: Admins can archive job listings that are no longer. Archiving a jo
  
 ## Aplication Link:
 https://jobapp-1a125.web.app/#/
- 
- ## Admin Login credentials:
- Email id: Admin123@gmail.com 
- Password: 12345678
